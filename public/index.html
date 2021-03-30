@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="ROADS/SH.js"></script>
+    <script src="ROADS/MDR.js"></script>
+</head>
+
+<body>
+    <div id="mapid"></div>
+    <script>
+        var mymap = L.map('mapid').setView([9.92522772815624, 78.11450958251953], 12.5);
+        tileURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+        const attribution = '&copy;<a href="https://www.openstreetmap.org/copyright">OpenStreetMap-contirbutors</a>'
+        const tile = L.tileLayer(tileURL, {
+            attribution
+        });
+        tile.addTo(mymap);
+
+        //SH-ROADS ----------------------------------------------------------------------------------
+        L.geoJson(sh, {
+            onEachFeature: function(feature, layer) {
+                if (feature.properties.Constituency === undefined || "") {
+                    layer.bindPopup(
+                        '<b>Classification of Road: </b>' + feature.properties.Classificationofroad +
+                        '<br><b>Name of Road: </b>' + feature.properties.NameofRoad +
+                        '<br><b>Road No as per RMMS : </b>' + feature.properties.RoadNo +
+                        '<br><b>Length of Road: </b>' + feature.properties.LengthofRoad +
+                        '<br><b>Subdivision: </b>' + feature.properties.Subdivision +
+                        '<br><b>Division: </b>' + feature.properties.Division +
+                        '<br><b>Circle: </b>' + "MADURAI", customOptions)
+
+                } else {
+                    layer.bindPopup(
+                        '<b>Classification of Road: </b>' + feature.properties.Classificationofroad +
+                        '<br><b>Name of Road: </b>' + feature.properties.NameofRoad +
+                        '<br><b>Road No as per RMMS : </b>' + feature.properties.RoadNo +
+                        '<br><b>Length of Road: </b>' + feature.properties.LengthofRoad +
+                        '<br><b>Subdivision: </b>' + feature.properties.Subdivision +
+                        '<br><b>Division: </b>' + feature.properties.Division +
+                        '<br><b>Circle: </b>' + "MADURAI" +
+                        '<br><b>Constituency:<b>' + feature.properties.Constituency, customOptions)
+                }
+            },
+            style: shstyle
+        }).addTo(mymap);
+        //MDR-ROADS ----------------------------------------------------------------------------------
+        L.geoJson(MDR, {
+            onEachFeature: function(feature, layer) {
+                console.log(feature.properties);
+                if (feature.properties.Constituency === "undefined" || "") {
+                    layer.bindPopup(
+                        '<b>Classification of Road: </b>' + feature.properties.Classificationofroad +
+                        '<br><b>Name of Road: </b>' + feature.properties.NameofRoad +
+                        '<br><b>Road No as per RMMS : </b>' + feature.properties.RoadNo +
+                        '<br><b>Length of Road: </b>' + feature.properties.LengthofRoad +
+                        '<br><b>Subdivision: </b>' + feature.properties.Subdivision +
+                        '<br><b>Division: </b>' + feature.properties.Division +
+                        '<br><b>Circle: </b>' + "MADURAI", customOptions)
+
+                } else {
+                    layer.bindPopup(
+                        '<b>Classification of Road: </b>' + feature.properties.Classificationofroad +
+                        '<br><b>Name of Road: </b>' + feature.properties.NameofRoad +
+                        '<br><b>Road No as per RMMS : </b>' + feature.properties.RoadNo +
+                        '<br><b>Length of Road: </b>' + feature.properties.LengthofRoad +
+                        '<br><b>Subdivision: </b>' + feature.properties.Subdivision +
+                        '<br><b>Division: </b>' + feature.properties.Division +
+                        '<br><b>Circle: </b>' + "MADURAI" +
+                        '<br><b>Constituency:<b>' + feature.properties.Constituency, customOptions)
+                }
+
+            },
+            style: mdrstyle
+        }).addTo(mymap);
+    </script>
+</body>
+
+</html>
