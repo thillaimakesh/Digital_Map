@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="ROADS/SH.js"></script>
     <script src="ROADS/MDR.js"></script>
+    <!-- RIVER GEOJSON FILE -->
+    <script src="vaigai.js"></script>
 </head>
 
 <body>
@@ -75,6 +77,15 @@
                         '<br><b>Constituency:<b>' + feature.properties.Constituency, customOptions)
                 }
 
+            },
+            style: mdrstyle
+        }).addTo(mymap);
+        //MDR-ROADS ----------------------------------------------------------------------------------
+        L.geoJson(vaigai, {
+            onEachFeature: function(feature, layer) {
+                console.log(feature.properties);
+                layer.bindPopup(
+                    '<b>VAIGAI RIVER</b>', customOptions)
             },
             style: mdrstyle
         }).addTo(mymap);
