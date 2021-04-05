@@ -1,11 +1,9 @@
 mdrstyle = {
-        color: '#0000ff',
-        weight: '8',
-        opacity: 0.5
-    }
-    ///GEOJSON ARRAY 
+    color: '#0000ff',
+    weight: '8',
+    opacity: 0.5
+}
 var MDR = {
-    // VADIPATTI 
     "type": "FeatureCollection",
     "features": [{
             "type": "Feature",
@@ -20,7 +18,10 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "SOUTH",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "13.600 km",
+                "Carriageway": "0.00 to 13.600"
+
             },
             "geometry": {
                 "type": "LineString",
@@ -621,7 +622,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "SOUTH",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "30.000 km",
+                "Carriageway": "0.00 to 30.000"
 
             },
             "geometry": {
@@ -1986,7 +1989,6 @@ var MDR = {
                 ]
             }
         },
-        //MADURAI EAST
         {
             "type": "Feature",
             "properties": {
@@ -2000,7 +2002,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "5.800 km",
+                "Carriageway": "13.600 to 19.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -2437,7 +2441,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "4.400 km",
+                "Carriageway": "0.000 to 4.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -2601,12 +2607,14 @@ var MDR = {
                 "stroke-opacity": 0.5,
                 "Classificationofroad": "MDR",
                 "NameofRoad": "Kallanthiri-Panaikulam Road",
-                "RoadNo": "M957",
+                "RoadNo": "MDR-957",
                 "LengthofRoad": " 13.400 KM",
                 "Constituency": "MADURAI EAST",
                 "section": "NORTH",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "13.400 km",
+                "Carriageway": "0.000 to 13.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -3163,7 +3171,9 @@ var MDR = {
                 "Constituency": "MADURAI WEST",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "3.000 km",
+                "Carriageway": "6.200 to 9.200"
             },
             "geometry": {
                 "type": "LineString",
@@ -3241,9 +3251,6 @@ var MDR = {
                 "stroke": "#555555",
                 "stroke-width": 8,
                 "stroke-opacity": 0.5,
-                "stroke": "#555555",
-                "stroke-width": 8,
-                "stroke-opacity": 0.5,
                 "Classificationofroad": "MDR",
                 "NameofRoad": "Madurai-Palamedu Road",
                 "RoadNo": "MDR-227",
@@ -3251,7 +3258,9 @@ var MDR = {
                 "Constituency": "Sholavanthan",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "3.600 km",
+                "Carriageway": "9.200 to 12.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -3355,7 +3364,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "NORTH",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "11.800 km",
+                "Carriageway": "0.000 to 11.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -3527,7 +3538,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "NORTH",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "11.800 km",
+                "Carriageway": "0.000 to 11.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -3870,16 +3883,15 @@ var MDR = {
                 "stroke-width": 8,
                 "stroke-opacity": 0.5,
                 "stroke": "#555555",
-                "stroke-width": 8,
-                "stroke-opacity": 0.5,
-                "Classificationofroad": "MDR",
                 "NameofRoad": "Kadachanendal-Thiruvathavur Road",
                 "RoadNo": "MDR-893",
                 "LengthofRoad": " 6.000 KM",
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.000 km",
+                "Carriageway": "11.000 to 17.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -4109,7 +4121,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "19.000 km",
+                "Carriageway": "0.000 to 19.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -4766,7 +4780,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "19.400 km",
+                "Carriageway": "0.000 to 19.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -5151,7 +5167,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "19.400 km",
+                "Carriageway": "0.000 to 19.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -5592,7 +5610,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.200 km",
+                "Carriageway": "0.000 to 6.200"
             },
             "geometry": {
                 "type": "LineString",
@@ -6105,11 +6125,13 @@ var MDR = {
                 "Classificationofroad": "MDR",
                 "NameofRoad": "Kottanathampatti-Kodukkampatti road",
                 "RoadNo": "MDR-950",
-                "LengthofRoad": " 14.380 KM",
+                "LengthofRoad": " 14.180 KM",
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "14.180 km",
+                "Carriageway": "0.000 to 14.180"
             },
             "geometry": {
                 "type": "LineString",
@@ -6842,7 +6864,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "NORTH",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.800 km",
+                "Carriageway": "14.380 to 20.980"
             },
             "geometry": {
                 "type": "LineString",
@@ -7215,7 +7239,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "NORTH",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "5.000 km",
+                "Carriageway": "12.800 to 17.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -7415,7 +7441,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "NORTH",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "7.000 km",
+                "Carriageway": "0.000 to 7.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -7772,7 +7800,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "SOUTH",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "8.760 km",
+                "Carriageway": "6.560 to 15.320"
             },
             "geometry": {
                 "type": "LineString",
@@ -8337,7 +8367,9 @@ var MDR = {
                 "Constituency": "Sholavanthan",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.650 km",
+                "Carriageway": "0.000 to 6.650"
             },
             "geometry": {
                 "type": "LineString",
@@ -8697,7 +8729,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "17.200 km",
+                "Carriageway": "17.400 to 34.600"
             },
             "geometry": {
                 "type": "LineString",
@@ -9178,7 +9212,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.600 km",
+                "Carriageway": "0.000 to 6.600"
             },
             "geometry": {
                 "type": "LineString",
@@ -9957,13 +9993,15 @@ var MDR = {
                 "stroke-width": 8,
                 "stroke-opacity": 0.5,
                 "Classificationofroad": "MDR",
-                "NameofRoad": "Othakadai-B.Muthupatti road",
+                "NameofRoad": "Othakadai-B.Mettupatti road",
                 "RoadNo": "MDR-946",
                 "LengthofRoad": " 3.600 KM",
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "3.600 km",
+                "Carriageway": "7.200 to 10.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -10194,13 +10232,15 @@ var MDR = {
                 "stroke-width": 8,
                 "stroke-opacity": 0.5,
                 "Classificationofroad": "MDR",
-                "NameofRoad": "Parali-Lingavadi-Ponthuugampatti road",
+                "NameofRoad": "Parali-Lingavadi-Ponthugampatti road",
                 "RoadNo": "MDR-1148",
                 "LengthofRoad": " 1.800 KM",
                 "Constituency": "undefined",
                 "section": "",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "1.800 km",
+                "Carriageway": "5.600 to 7.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -10369,7 +10409,9 @@ var MDR = {
                 "Constituency": "MADURAI NORTH",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "0.400 km",
+                "Carriageway": "4.800 to 5.200"
             },
             "geometry": {
                 "type": "LineString",
@@ -10418,7 +10460,9 @@ var MDR = {
                 "Constituency": "MADURAI EAST",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "7.600 km",
+                "Carriageway": "5.200 to 12.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -10839,7 +10883,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "7.800 km",
+                "Carriageway": "0.000 to 7.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -11060,7 +11106,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "4.300 km",
+                "Carriageway": "7.800 to 12.100"
             },
             "geometry": {
                 "type": "LineString",
@@ -11325,7 +11373,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "13.400 km",
+                "Carriageway": "0.000 to 13.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -11606,7 +11656,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "8.310 km",
+                "Carriageway": "0.000 to 8.310"
             },
             "geometry": {
                 "type": "LineString",
@@ -11863,7 +11915,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "18.400 km",
+                "Carriageway": "0.000 to 18.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -12212,7 +12266,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "10.000 km",
+                "Carriageway": "0.000 to 10.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -12476,12 +12532,14 @@ var MDR = {
                 "stroke-opacity": 0.5,
                 "Classificationofroad": "MDR",
                 "NameofRoad": "Pudupatti - Mangalrevu Road (M-376) ",
-                "RoadNo": "MDR-346",
+                "RoadNo": "MDR-376",
                 "LengthofRoad": " 3.800 KM",
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "3.800 km",
+                "Carriageway": "10.000 to 13.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -12586,11 +12644,13 @@ var MDR = {
                 "Classificationofroad": "MDR",
                 "NameofRoad": "Peraiyur-Watrap road – 962",
                 "RoadNo": "MDR-962",
-                "LengthofRoad": " 19.190 KM",
+                "LengthofRoad": " 9.190 KM",
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "9.190 km",
+                "Carriageway": "0.000 to 9.190"
             },
             "geometry": {
                 "type": "LineString",
@@ -12911,7 +12971,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.800 km",
+                "Carriageway": "0.000 to 6.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -13088,7 +13150,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "9.715 km",
+                "Carriageway": "0.000 to 9.715"
             },
             "geometry": {
                 "type": "LineString",
@@ -13569,7 +13633,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "4.775 km",
+                "Carriageway": "9.715 to 14.490"
 
             },
             "geometry": {
@@ -13714,8 +13780,10 @@ var MDR = {
                 "LengthofRoad": " 9.603 KM",
                 "Constituency": "undefined",
                 "section": "WEST",
-                "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Subdivision": "Thirumangalam",
+                "Division": "MADURAI",
+                "length": "9.603 km",
+                "Carriageway": "0.000 to 9.603"
             },
             "geometry": {
                 "type": "LineString",
@@ -14405,7 +14473,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Usilampatti",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "29.200 km",
+                "Carriageway": "0.000 to 29.200"
             },
             "geometry": {
                 "type": "LineString",
@@ -15874,7 +15944,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "USILAMPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "2.600 km",
+                "Carriageway": "0.000 to 2.600"
             },
             "geometry": {
                 "type": "LineString",
@@ -16071,7 +16143,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "7.000 km",
+                "Carriageway": "2.600 to 9.600"
 
             },
             "geometry": {
@@ -16325,7 +16399,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Peraiyur",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "9.200 km",
+                "Carriageway": "7.400 to 16.600"
             },
             "geometry": {
                 "type": "LineString",
@@ -16514,7 +16590,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "22.400 km",
+                "Carriageway": "0.000 to 22.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -17027,7 +17105,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Usilampatti",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "2.000 km",
+                "Carriageway": "17.000 to 19.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -17192,7 +17272,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "Thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "17.000 km",
+                "Carriageway": "0.000 to 17.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -17809,7 +17891,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "11.600 km",
+                "Carriageway": "0.000 to 11.600"
             },
             "geometry": {
                 "type": "LineString",
@@ -18426,7 +18510,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "SOUTH",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "2.000 km",
+                "Carriageway": "0.000 to 2.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -18496,7 +18582,10 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "SOUTH",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "2.000 km",
+                "Carriageway": "0.000 to 2.000"
+
             },
             "geometry": {
                 "type": "LineString",
@@ -18593,7 +18682,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "1.400 km",
+                "Carriageway": "0.000 to 1.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -18670,7 +18761,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "4.800 km",
+                "Carriageway": "0.000 to 4.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -18975,7 +19068,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "0.800 km",
+                "Carriageway": "0.000 to 0.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -19048,7 +19143,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MADURAI SOUTH",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "0.800 km",
+                "Carriageway": "0.000 to 0.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -19105,7 +19202,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "11.600 km",
+                "Carriageway": "12.800 to 24.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -19538,7 +19637,9 @@ var MDR = {
                 "Constituency": "MDU East",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "6.400 km",
+                "Carriageway": "0.800 to 7.200"
             },
             "geometry": {
                 "type": "LineString",
@@ -19755,7 +19856,9 @@ var MDR = {
                 "Constituency": "MADURAI NORTH",
                 "section": "WEST",
                 "Subdivision": "MADURAI WEST",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "0.800 km",
+                "Carriageway": "0.000 to 0.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -19788,7 +19891,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "thirumangalam",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "12.000 km",
+                "Carriageway": "0.000 to 12.000"
             },
             "geometry": {
                 "type": "LineString",
@@ -20133,7 +20238,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "8.800 km",
+                "Carriageway": "0.000 to 8.800"
             },
             "geometry": {
                 "type": "LineString",
@@ -20386,7 +20493,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "MELUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "2.800 km",
+                "Carriageway": "9.260 to 12.060"
             },
             "geometry": {
                 "type": "LineString",
@@ -20563,7 +20672,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "PERAIYUR",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "12.342 km",
+                "Carriageway": "0.000 to 12.342"
             },
             "geometry": {
                 "type": "LineString",
@@ -21004,7 +21115,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "WEST",
                 "Subdivision": "USILAMPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "12.400 km",
+                "Carriageway": "0.000 to 12.400"
             },
             "geometry": {
                 "type": "LineString",
@@ -21425,7 +21538,9 @@ var MDR = {
                 "Constituency": "undefined",
                 "section": "SOUTH",
                 "Subdivision": "VADIPATTI",
-                "Division": "MADURAI"
+                "Division": "MADURAI",
+                "length": "17.200 km",
+                "Carriageway": "0.000 to 17.200"
             },
             "geometry": {
                 "type": "LineString",
